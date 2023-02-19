@@ -1,5 +1,19 @@
 <resources>
     <string name="app_name">VatCalculator</string>
 
+    <string name="amount_field">No VAT amount</string>
+    <string name="country_field">Country</string>
+    <string name="calculate_btn">Calculate</string>
+    <string name="final_amount">Total amount: %s</string>
 
+    <string name="portugal">Portugal</string>
+    <string name="spain">Spain</string>
+    <string name="france">France</string>
+    <string name="uk">United Kingdom</string>
+    <string name="ch">Switzerland</string>
+    <string name="it">Italy</string>
+    <string name="germany">Germany</string>
+    <string name="belgium">Belgium</string>
+    <string name="nl">Netherlands</string>
+    <string name="luxembourg">Luxembourg</string>
 </resources>

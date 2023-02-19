@@ -22,27 +22,26 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Greeting("Android")
+                    VatCalculatorScreen()
                 }
             }
         }
     }
 }
 
-@Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
-}
 
 @Composable
 fun VatCalculatorScreen() {
 
 }
 
-@Preview(showBackground = true)
+@Preview(
+    showBackground = true,
+    showSystemUi = true
+)
 @Composable
 fun DefaultPreview() {
     VatCalculatorTheme {
-        Greeting("Android")
+        VatCalculatorScreen()
     }
 }
